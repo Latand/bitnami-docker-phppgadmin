@@ -162,8 +162,8 @@ The `bitnami/phppgadmin:latest` tag always points to the most recent release. To
 The phpPgAdmin instance can be customized by specifying environment variables on the first run. The following environment values are provided to custom phpPgAdmin:
 
 - `DATABASE_ENABLE_EXTRA_LOGIN_SECURITY`: Whether to enable extra login security. When enabled, logins with no password or certain usernames (postgres, root, pgsql, administrator) will be denied. Default: **no**
-- `DATABASE_HOST`: Database server host. Default: **postgresql**.
-- `DATABASE_PORT_NUMBER`: Database server port. Default: **5432**
+- `POSTGRESQL_HOST`: Database server host. Default: **postgresql**.
+- `POSTGRESQL_PORT_NUMBER`: Database server port. Default: **5432**
 - `DATABASE_SSL_MODE`: Database SSL mode. Supported options are: disable, allow, prefer, require. No default.
 - `PHP_UPLOAD_MAX_FILESIZE`: Max PHP upload file size. Default: **80M**
 - `PHP_POST_MAX_SIZE`: Max PHP POST size. Default: **80M**
